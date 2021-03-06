@@ -3,3 +3,6 @@ Go checkout my video on my youtube channel, <a href="https://www.youtube.com/com
 A part of my new series on my YouTube channel Compsci Studio. I create this CSS Sidebar as fast as possible.
 
 Shoutout to the original design inspo from <a href="https://dribbble.com/shots/10953094-Sidebar-Navigation-Stocklabs">Kevin Dukkon</a>
+
+<img align="left" height="500px" src="github/ipad.png">
+<img align="right" height="500px" src="github/iphone.png">
