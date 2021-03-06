@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
+@import url('https://css.gg/home.css');
+@import url('https://css.gg/album.css');
+@import url('https://css.gg/community.css');
+@import url('https://css.gg/ericsson.css');
+@import url('https://css.gg/stopwatch.css');
+@import url('https://css.gg/games.css');
+@import url('https://css.gg/disc.css');
+@import url('https://css.gg/list.css');
+
+body {
+    font-family: 'Varela', sans-serif;
+    margin: 0px;
+    background-color: #e3e3e3;
+}
+
+.sidebar {
+    display: inline-block;
+    background-color: #040404;
+    height: 100%;
+    width: 295px;
+}
+
+.sidebar__brand {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    height: 100px;
+    border-radius: 10px;
+    color: #e7e9ed;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.sidebar__item {
+    transition: font-size 0.1s ease-in, background-color 0.1s ease-in;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content:left;
+    padding-left: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 55px;
+    border-radius: 10px;
+    color: #9c9da0;
+    margin-bottom: 10px;
+}
+
+.sidebar__item:hover {
+    transition: font-size 0.1s ease-in, background-color 0.1s ease-in;
+    background-color: #3235347F;
+    font-weight: bold;
+    font-size: 17px;
+    color: #e7e9ed;
+}
+
+.sidebar__item--active {
+    background-color: #3235347F;
+}
+
+.sidebar__item__text {
+    padding-left: 20px;
+}
+
+@media (max-width: 600px) {
+    .sidebar {
+        transition: width 0.5s ease-in-out;
+        width: 95px;
+    }
+    .sidebar__item__text {
+        display: none;
+    }
+}
